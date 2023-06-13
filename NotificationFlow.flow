@@ -1,7 +1,7 @@
 {
   "type": "flopack",
   "version": "1.3.0",
-  "created": "2023-06-13T22:47:00.587Z",
+  "created": "2023-06-13T22:48:23.488Z",
   "flags": {
     "auto-transform": true,
     "looseBooleans": true,
@@ -10,13 +10,13 @@
   },
   "data": {
     "flos": {
-      "9cf185dc-eb9c-4e59-b873-529dcf1c8a25": {
-        "id": "9cf185dc-eb9c-4e59-b873-529dcf1c8a25",
+      "b2c8432e-c257-4407-b64c-7846d89c2282": {
+        "id": "b2c8432e-c257-4407-b64c-7846d89c2282",
         "name": "Exported Notification Flow",
         "description": "",
         "data": {
           "id": null,
-          "uuid": "9cf185dc-eb9c-4e59-b873-529dcf1c8a25",
+          "uuid": "b2c8432e-c257-4407-b64c-7846d89c2282",
           "display": {
             "preview": [
               {
@@ -117,7 +117,7 @@
                     "description": null
                   },
                   "meta": {},
-                  "config": "989fd452-f3d5-4958-ae09-e98a75baf5ea",
+                  "config": "4c1a7a5f-da84-4f95-970f-8ebea5bd76f6",
                   "partnerChannelKeys": 206,
                   "inputs": {
                     "extensible": false,
@@ -461,7 +461,10 @@
                                 "nZuTK5nyrj": "okta",
                                 "8rH1IDsIL9": "okta",
                                 "KbojwSyd7U": "okta",
-                                "rvllIgl5Txy": "okta"
+                                "rvllIgl5Txy": "okta",
+                                "HS6ZfxX07T": "okta",
+                                "TSbrvzorJC": "okta",
+                                "xOUQDW01o5": "okta"
                               }
                             },
                             "tree": {
@@ -1142,9 +1145,9 @@
                                 },
                                 "pins": {
                                   "CGP2E50QZgM": {
-                                    "rvllIgl5Txy": [
+                                    "xOUQDW01o5": [
                                       {
-                                        "input": "-LiJoIzFu7u",
+                                        "input": "RZnaKAs-Oe",
                                         "transform": null
                                       }
                                     ]
@@ -1227,7 +1230,7 @@
                                           "value": {
                                             "type": "string",
                                             "collection": false,
-                                            "data": "Hey {{{c8BsD2Yen}}},\n\nYou've been notified. ",
+                                            "data": "Hey {{{c8BsD2Yen}}},\n\nYou've been notified. \nUpdate the messaging. ",
                                             "available": [],
                                             "error": false
                                           },
@@ -1353,7 +1356,7 @@
                                       "description": null
                                     },
                                     "meta": {},
-                                    "config": "b90429c9-381f-40fb-8776-d02cb23384c5",
+                                    "config": "20b6ed58-eb20-4435-8433-0f2ddd6d59ce",
                                     "partnerChannelKeys": 207,
                                     "inputs": {
                                       "extensible": false,
@@ -1609,8 +1612,8 @@
                                     "runtime": {},
                                     "display": {},
                                     "comments": {
-                                      "title": "Add a Note",
-                                      "markdown": "Version Test"
+                                      "title": "Send Email",
+                                      "markdown": "Notification to Okta Admin."
                                     }
                                   }
                                 },
@@ -1635,7 +1638,7 @@
                                     }
                                   }
                                 },
-                                "uuid": "rvllIgl5Txy",
+                                "uuid": "xOUQDW01o5",
                                 "branches": {},
                                 "node": {
                                   "key": "expand",
@@ -1677,8 +1680,8 @@
                                     "inputs": {
                                       "extensible": false,
                                       "data": {
-                                        "-LiJoIzFu7u": {
-                                          "id": "-LiJoIzFu7u",
+                                        "RZnaKAs-Oe": {
+                                          "id": "RZnaKAs-Oe",
                                           "group": null,
                                           "key": "object",
                                           "value": {
@@ -1738,9 +1741,9 @@
                                         }
                                       },
                                       "data": {
-                                        "HBroZGHzFMk": {
-                                          "id": "HBroZGHzFMk",
-                                          "group": "K-PvHxYSYne",
+                                        "X_oUMKUlGe": {
+                                          "id": "X_oUMKUlGe",
+                                          "group": "F-CsrTCemI",
                                           "key": "key",
                                           "value": {
                                             "error": false,
@@ -1760,9 +1763,9 @@
                                             "srcOutputId": "CGP2E50QZgM"
                                           }
                                         },
-                                        "qYMXoU98I8h": {
-                                          "id": "qYMXoU98I8h",
-                                          "group": "K-PvHxYSYne",
+                                        "o-UXL70uyi": {
+                                          "id": "o-UXL70uyi",
+                                          "group": "F-CsrTCemI",
                                           "key": "value",
                                           "value": {
                                             "error": false,
@@ -1787,7 +1790,7 @@
                                   }
                                 },
                                 "pins": {
-                                  "qYMXoU98I8h": {
+                                  "o-UXL70uyi": {
                                     "Ys-ri8GzO": [
                                       {
                                         "input": "PJJRYUgMbc",
@@ -1800,29 +1803,29 @@
                             ],
                             "model": {},
                             "orderings": {
-                              "0FhauRyTtl": [
+                              "OiQ3V33Ag8": [
                                 "QA_lmMsWlC",
                                 "Ys-ri8GzO"
                               ],
-                              "3patlYdREJ": [
+                              "xVt3_7O7gO": [
                                 "Ys-ri8GzO",
                                 "Euo2yu8PV"
                               ],
-                              "i3Hs3AlicW": [
+                              "zVvx8ct7hr": [
                                 "Euo2yu8PV",
                                 "OPrfi3MrM"
                               ],
-                              "fQetPLIyAGq": [
+                              "So_4hwAv5X": [
                                 "QA_lmMsWlC",
-                                "rvllIgl5Txy"
+                                "xOUQDW01o5"
                               ],
-                              "PBAk3wc__Ol": [
-                                "rvllIgl5Txy",
+                              "FBk_gj2o9d": [
+                                "xOUQDW01o5",
                                 "Ys-ri8GzO"
                               ],
-                              "6cIJDwTQcB-": [
-                                "rvllIgl5Txy",
-                                "rvllIgl5Txy"
+                              "FaI2f0mLZs": [
+                                "xOUQDW01o5",
+                                "xOUQDW01o5"
                               ]
                             },
                             "security_level": "high",
@@ -1880,7 +1883,7 @@
           ],
           "model": {},
           "orderings": {
-            "nlZlW8rGoH": [
+            "gxy_vKMcf": [
               "83KUJOJdn",
               "IPOx8fYkXm"
             ]
@@ -1890,7 +1893,7 @@
           "log": true,
           "inheritLog": true,
           "scheduled": false,
-          "group": "74414c8e-b789-41bb-b1b4-ca5ede9f3e51",
+          "group": "8edbbad8-6de4-4b19-89c7-85e609d085fd",
           "templateName": null,
           "connector_method_meta": {
             "inputs": {},
@@ -1902,23 +1905,23 @@
       }
     },
     "configs": {
-      "b90429c9-381f-40fb-8776-d02cb23384c5": {
-        "id": "b90429c9-381f-40fb-8776-d02cb23384c5",
-        "name": "Gmail",
-        "module": "gmail",
-        "data": null
-      },
-      "989fd452-f3d5-4958-ae09-e98a75baf5ea": {
-        "id": "989fd452-f3d5-4958-ae09-e98a75baf5ea",
+      "4c1a7a5f-da84-4f95-970f-8ebea5bd76f6": {
+        "id": "4c1a7a5f-da84-4f95-970f-8ebea5bd76f6",
         "name": "Okta MYL",
         "module": "okta",
+        "data": null
+      },
+      "20b6ed58-eb20-4435-8433-0f2ddd6d59ce": {
+        "id": "20b6ed58-eb20-4435-8433-0f2ddd6d59ce",
+        "name": "Gmail",
+        "module": "gmail",
         "data": null
       }
     },
     "tables": {},
     "groups": {
-      "74414c8e-b789-41bb-b1b4-ca5ede9f3e51": {
-        "id": "74414c8e-b789-41bb-b1b4-ca5ede9f3e51",
+      "8edbbad8-6de4-4b19-89c7-85e609d085fd": {
+        "id": "8edbbad8-6de4-4b19-89c7-85e609d085fd",
         "data": {
           "name": "Versioning for Flows and Folders with Github",
           "description": "",
@@ -1927,5 +1930,5 @@
       }
     }
   },
-  "checksum": "c875055678564e7911916ae2920a57cca964a512feec86125567b472e80d73e3"
+  "checksum": "a4cc36d6c6b0d042c1b4d45574d60b4698767eb0cb878771b3a2e100ff2105e2"
 }
